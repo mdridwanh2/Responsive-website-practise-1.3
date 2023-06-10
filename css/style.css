@@ -1,0 +1,279 @@
+/* common css starts here */
+
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f7f8;
+}
+
+/* .section-padding{
+    padding: 100px 0;
+}  what is section padding ..??*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-body{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* common css ends here */
+
+
+
+
+
+/* navber starts here */
+
+
+/* logo starts here *******************************************************************************************/
+
+.navbar .navbar-brand.logo{
+    color: rgb(4, 35, 82);
+}
+.navbar .navbar-brand.logo span{
+    color: rgb(245, 142, 7);
+}
+
+/* .navbar .navbar-brand.logo:focus,
+.navbar .navbar-brand.logo:hover{
+    color: rgb(245, 142, 7);
+} */
+
+.humber_button{
+    background-color: transparent;
+    border: none;
+}
+
+/* logo ends here *******************************************************************************************/
+
+
+.my_navBar li a.active{
+    color: rgb(245, 142, 7)!important;
+}
+
+.my_nav_bar{
+    background-color: rgb(252, 253, 253) !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.my_navBar li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(1, 44, 53);
+    transition: 0.2s ease-in;
+}
+.my_navBar li a:hover{
+    color: rgb(245, 142, 7)
+}
+
+form button{
+    border: 1px solid rgb(211, 210, 210) !important;
+    color: rgb(116, 114, 114) !important;
+    transition: 0.3s ease-in-out;
+}
+form button:hover{
+    background-color:#1976d2 !important;
+    color: white !important;
+}
+
+
+/* navber ends here */
+
+
+
+/* slider starts here */
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: rgb(235, 196, 69);
+    font-weight: 600;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-caption a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:rgb(245, 170, 7) ;
+    color: black;
+    margin-top: 10px !important;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+}
+.carousel-caption a:hover{
+    background-color:rgb(245, 150, 7) ;
+}
+
+
+/* .carousel-inner::before (befor ken?) */
+
+.carousel-inner::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 10, 10, 0.699);
+    z-index: 1;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgb(245, 142, 7);
+    border-radius: 50px;
+    color: red;
+} */
+/* can i change iconBar */
+
+.w-100{
+    height: 100vh;
+}
+
+/* .w-100{
+    height: 100vh;
+} what is this? */
+
+/* slider ends here */
+
+
+
+
+
+/* about section starts here */
+
+
+#about .about-img img{
+    border-radius: 5px;
+}
+
+#about{
+    margin: 60px 0;
+}
+
+#about .about-text h2{
+    color: rgb(245, 142, 7);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#about .about-text p{
+    color: #020b3a;
+}
+
+
+#about .about-text a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:rgb(6, 2, 59) ;
+    color: rgb(243, 241, 241);
+    margin-top: 10px !important;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#about .about-text a:hover{
+    background-color:rgb(7, 65, 99) ;
+}
+
+/* about section ends here */
+
+
+
+
+/* services starts here */
+.section-header h2{
+        color: rgb(245, 142, 7);
+        text-transform: capitalize;
+        font-weight: 700;
+}
+.section-header p{
+    color: #020b3a;
+}
+#services .card-body i{
+    font-size: 25px;
+}
+
+
+/* services ends here */
+
+
+
+
+
+/* portfolio starts here */
+
+
+.section-header{
+    margin-top: 50px;
+}
+
+/* protfolio ends here */
+
+
+
+/* team starts here */
+
+
+
+
+#team .team_items i{
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: #012336;
+}
+#team .team_items i:hover{
+    color:rgb(255, 125, 3);
+}
+
+
+
+/* team ends here */
+
+
+/* contact starts here */
+
+#contact button{
+    display: inline-block;
+    background-color:rgb(6, 2, 59) ;
+    color: rgb(243, 241, 241);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    margin: 15px 0 !important;
+}
+
+#contact button:hover{
+    background-color:rgb(13, 1, 46) ;
+    color: rgb(243, 241, 241);
+}
+
+
+/* contact ends here */
